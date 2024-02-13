@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url("../../../../assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+}
+.home h1{
+    color: red;
+    font-size:100px;
+    font-style: italic;
+    font-weight: 600;
+    margin: -10% 0% 2% 0%;
+}
+.in{
+    margin: 10px 40px 0px 10px;
+    display: flex;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+label{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    padding:10px 30px 10px 30px;
+    background-color: chartreuse;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+h1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}

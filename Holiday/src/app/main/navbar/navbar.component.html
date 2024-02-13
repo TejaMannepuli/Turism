@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="one">
+        <div class="img">
+            <img src="../../../assets/group-of-tourists-cartoon-character-with-airplane-free-vector.jpg" alt="">
+            <h1>PackYourBags</h1>
+        </div>
+<input type="search" name="" id="idea"><!--button><span class="material-symbols-outlined">
+    search
+    </span></button-->
+    <div class="list">
+        <ul>
+            <li>Agent Registration</li>
+            <li>Explore</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+    </div>
+    <div class="two">
+        <div class="list1"><ul>
+            <div class="dropdown-button" style="font-size: 25px;font-weight: 600;" routerLink="/main/navbar" RouterLinkActive="active">Overview</div>
+            <div class="dropdown">
+                <div class="dropdown-button" style="font-size: 25px;font-weight: 600;">Hotels</div>
+                <div class="dropdown-content">
+                  <a  class="dropdown-item" style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/seashore" RouterLinkActive="active">Seashore Hotels</a>
+                  <a href="#" class="dropdown-item" style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/mountainview" RouterLinkActive="active">Mountainview Hotels</a>
+                  <a href="#" class="dropdown-item" style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/candlelight" RouterLinkActive="active">Candlelight Hotels</a>
+                  <a href="#" class="dropdown-item"style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/normalhotels" RouterLinkActive="active">Normal Hotels</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <div class="dropdown-button"style="font-size: 25px;font-weight: 600;">Food</div>
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item"style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/localfood" RouterLinkActive="active">Local Famousfood</a>
+                  <a href="#" class="dropdown-item"style="font-size: 20px;font-weight: 600;" routerLink="/main/navbar/food" RouterLinkActive="active">Normal Foods</a>
+                </div>
+              </div>
+              <div class="dropdown-button"style="font-size: 25px;font-weight: 600;" routerLink="/main/navbar/transport" RouterLinkActive="active">Transport</div>
+              <div class="dropdown-button"style="font-size: 25px;font-weight: 600;">Packages</div>
+              <div class="dropdown-button"style="font-size: 25px;font-weight: 600;" routerLink="/main/navbar/localdress" RouterLinkActive="active">Traditional dress</div>
+              <div class="dropdown">
+                <div class="dropdown-button"style="font-size: 25px;font-weight: 600;">More</div>
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item"style="font-size: 20px;font-weight: 600;">Guide Details</a>
+                  <a href="#" class="dropdown-item"style="font-size: 20px;font-weight: 600;">Maps</a>
+                </div>
+              </div>
+        </ul></div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../../assets/vizag1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../../assets/vizag2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../../assets/vizag3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div>
+        <marquee scrollamount="10" class="bb">Welcome to Visakhapatnam</marquee>
+      </div><br><br>
+      <router-outlet></router-outlet>
+      <div></div>
+      <h3 style="margin-top: 20px;"><i>“See the world. It’s more fantastic than any dream.”</i></h3>
+      <br><br><br>
+    
+      <div class="card1">
+    
+        <div class="card" style="width: 18rem; height:400px">
+          <img src="../../../assets/Araku-Valley.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Araku Valley is a serene hill station located 115 km away from Vishakhapatnam, Andhra Pradesh. It is often referred to as the Ooty of Andhra Pradesh because of the beauty of the places to visit in Araku Valley and the weather. This valley in the Eastern Ghats is known for its coffee plantations.</p>
+          </div>
+        </div>
+    
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/borra-caves.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">One of the largest caves in the country, Borra Caves are home to million-year-old stalactite and stalagmite formations. Perched at an elevation of 1,400 m above sea level, the majestic caves are a visual treat for visitors.</p>
+          </div>
+        </div>
+    
+       
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/vizag-rk-beach.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The Ramakrishna beach is a beautiful spot for relaxation and pleasure is a natural beautic scene. There is an imposing Kali Temple near this beach. The aquarium here is an added attraction. The roaring sounds of sea gives enormous pleasure.</p>
+          </div>
+        </div>
+    
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/rose hills.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ross Hill Church is one of the most beautiful churches in this part of the countrt. Built on a hill top surrounded by hills and water. The Church has an amazing view from the sea side, vizag city, port area. It's a must visit place for religious as well as tourist purpose.</p>
+          </div>
+        </div>
+    
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/Kailasagiri.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Kailasagiri is a picturesque hill over looking the sea is a natural gift with 350 acres available has been developed into a lush green park has a panoramic sea view with a serene atmosphere with water sprinklers, microwave repeater station, beautiful garden locations and recent flower clock titanic view point making it .</p></div>
+        </div>
+    
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/Visakha_Museum.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Visakha Museum (known fully as Visakhapatnam Municipal Corporation Museum) is a museum located in the port city of Visakhapatnam in Andhra Pradesh, India, which houses the historical treasures and artifacts of the Kalingandhra region.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/victory-at-sea.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The Victory at Sea Memorial  is an Indian memorial constructed after the Indo-Pakistani War of 1971 which is dedicated to the Indian Navy and the Eastern Naval Command sailors. It was constructed in 1996. It is located on Beach Road, Visakhapatnam.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;height:400px">
+          <img src="../../../assets/Rushikonda_beach_view_001.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> Situated at around 8 km from the Vizag city is the beautiful Rushikonda beach, a popular beach of Vizag that attracts tourists as well as the locals here. Rushikonda beach is widely known for its golden sands and tidy waves of Bay of Bengal.</p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
